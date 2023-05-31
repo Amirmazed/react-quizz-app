@@ -1,0 +1,33 @@
+
+.header{
+    height: 80px;
+    background-color: #FFFDFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    box-shadow: 2px 9px 37px -10px rgba(0,0,0,0.69);
+-webkit-box-shadow: 2px 9px 37px -10px rgba(0,0,0,0.69);
+-moz-box-shadow: 2px 9px 37px -10px rgba(0,0,0,0.69);
+    
+}
+
+.header a{
+    color: #7e79b6;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 20px;
+}
+
+.header a:hover{
+    color: orange;
+}
+
+.header img{
+    width: 60px;
+}
+
+.header img:hover{
+    cursor: pointer;
+}

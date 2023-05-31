@@ -1,0 +1,18 @@
+.singleStat{
+    border: 2px solid #6267EE;
+    width: 50%;
+    margin: 25px auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    box-shadow: 2px 9px 23px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 2px 9px 23px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 9px 23px 0px rgba(0,0,0,0.75);
+}
+
+.singleStat:hover{
+    cursor: pointer;
+    background-color:  #6267EE;
+    color: #FFFFFF;
+}

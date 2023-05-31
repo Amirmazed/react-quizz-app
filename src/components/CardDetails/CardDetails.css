@@ -1,0 +1,39 @@
+.Qbox{
+    width: 50%;
+
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0px 13px 31px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 13px 31px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 13px 31px 0px rgba(0,0,0,0.75);
+}
+
+.questionUl{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.optnBtn{
+    background-color: #6267EE;
+    border: none;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 5px 5px;
+}
+
+.optnBtn:hover{
+    background-color: white;
+    color: #6267EE;
+    border: 2px solid #6267EE;
+    cursor: pointer;
+}
+
+.notiText{
+    width: 50%;
+
+    margin: 20px auto;
+    color: #6267EE;
+}

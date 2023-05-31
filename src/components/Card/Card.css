@@ -1,0 +1,40 @@
+.card img{
+    width: 250px;
+    display: inline-block;
+    margin: 10px 0 auto;
+    background-color: #f1f1f3;
+}
+
+.card{
+    
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 6px 9px 23px -4px rgba(0,0,0,0.79);
+    -webkit-box-shadow: 6px 9px 23px -4px rgba(0,0,0,0.79);
+    -moz-box-shadow: 6px 9px 23px -4px rgba(0,0,0,0.79);
+    margin-left: 10px;
+   
+}
+
+.TextBtn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.cardBtn{
+    background-color: #6267EE;
+    border: none;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.cardBtn:hover{
+    background-color: white;
+    color: #6267EE;
+    border: 2px solid #6267EE;
+    cursor: pointer;
+}
